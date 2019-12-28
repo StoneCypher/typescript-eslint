@@ -6,8 +6,16 @@ Whether you're adding linting to a new TypeScript codebase, adding TypeScript to
 
 First step is to make sure you've got the required packages installed:
 
+Under Yarn:
+
 ```bash
 $ yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+```
+
+Under NPM:
+
+```bash
+$ npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
 
 ## Configuration
